@@ -1,0 +1,10 @@
+home_pro:
+  base: http://52.41.129.106/andrewd/homePro_v2
+
+neweden_faces:
+  base: https://learnix-neweden-faces.herokuapp.com
+
+tvshow_tracker:
+  base: https://learnix-tvshow-tracker.herokuapp.com
+  username: test@gmail.com
+  password: Password1

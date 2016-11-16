@@ -1,0 +1,137 @@
+[
+  {
+    "uri": "features/homepro/free_quote_validation.feature",
+    "id": "verify-customer-is-able-to-submit-free-quote-form",
+    "keyword": "Feature",
+    "name": "Verify Customer is able to submit Free Quote form",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "id": "verify-customer-is-able-to-submit-free-quote-form;test-the-system-validetes-input-parameters-of-free-quote-form---missing-name-field",
+        "keyword": "Scenario",
+        "name": "Test the System validetes input parameters of Free Quote form - missing Name field",
+        "description": "",
+        "line": 3,
+        "type": "scenario",
+        "before": [
+          {
+            "match": {
+              "location": "features/support/env.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11708000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2983000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "* ",
+            "name": "When I navigate to \"http://52.41.129.106/andrewd/homePro_v2/quote.php\" url",
+            "line": 4,
+            "match": {
+              "location": "features/step_definitions/first_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 638265000
+            }
+          },
+          {
+            "keyword": "* ",
+            "name": "I should see \"RECEIVE A FREE QUOTE TODAY\" text on my page",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/first_steps.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 96728000
+            }
+          },
+          {
+            "keyword": "* ",
+            "name": "Then I set \"email\" field as \"test@learnix.com\" into Free Quote form",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/first_steps.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 37000
+            }
+          },
+          {
+            "keyword": "* ",
+            "name": "Then I set \"phone\" field as \"567-878-8456\" into Free Quote form",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/first_steps.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20000
+            }
+          },
+          {
+            "keyword": "* ",
+            "name": "Then I set \"description\" field as \"new tile into my kitchen\" into Free Quote form",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/first_steps.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 78000
+            }
+          },
+          {
+            "keyword": "* ",
+            "name": "And I submit the Free Quote form",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/first_steps.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 114333000
+            }
+          },
+          {
+            "keyword": "* ",
+            "name": "Then I should see \"You did not enter a value in Name.  This is a Mandatory field.  Please enter it now.\" popup message",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/first_steps.rb:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9875000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 143075000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
